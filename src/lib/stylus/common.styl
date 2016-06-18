@@ -1,0 +1,21 @@
+vendors = webkit moz o ms
+vendor-property = transform
+
+border(w = 1px, s = solid, c = #f5f5f5)
+	border: w s c
+
+border-left(w = 5px, s = solid, c = #FF6699)
+	border-left: w s c
+	
+border-bottom(w = 1px, s = solid, c = #f5f5f5)
+	border-borrom: w s c
+
+transition(p = all, d = .5s, t = ease, de = 0s)
+	for vendor in vendors
+		if p == vendor-property
+			p = \- + vendor + \- + p
+		-{vendor}-transition: p  d t de
+
+font-color-normal = #414141
+font-size-normal = 14px
+font-size-small = 12px
