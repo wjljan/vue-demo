@@ -38,7 +38,7 @@ vue-cli：
 
 demo中出现的'/static/vueTest/'为服务端该demmo的静态资源目录，这个可以自行修改
 ps.推荐一个node的mvc+orm的框架：thinkjs
-
+```
 
 ##src目录结构说明
 
