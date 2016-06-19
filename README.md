@@ -23,7 +23,8 @@ npm test
 ##说明
 
 ``` bash
-这是对前端时间学习vue的一个梳理，用到的东西有以下：
+前段时间学了下vue，这里做个梳理，麻雀虽小五脏俱全=.=
+用到的东西有以下：
 
 vue：核心与基础
 vue-router：路由
@@ -51,3 +52,8 @@ views：业务组件
 App.vue：根组件
 main.js：打包入口文件
 
+![image](https://github.com/wjljan/vue-demo/img/1.png)
+
+![image](https://github.com/wjljan/vue-demo/img/2.png)
+
+![image](https://github.com/wjljan/vue-demo/img/3.png)
