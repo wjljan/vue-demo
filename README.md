@@ -27,15 +27,27 @@ npm test
 
 vue：核心与基础
 vue-router：路由
-vuex：状态管理、单向数据流
+vuex：状态管理、单向数据流(vue里类似于redux的实现)
 es2015：demo使用es2015语法，不太熟悉的可以先看看
-
+vue-devtools：chrome扩展插件，方便调试(组件和store)
 vue-cli：
     vue提供的一个脚手架工具，可以快速创建基于webpack/browserify的项目，本demo使用browserify，
     工具包括：browserify、watchify、vueify、babel等，具体介绍和使用可查看对应文档。
     这套脚手架支持单文件vue组件、热重载、代码检查等
 优化：可以加上patition-bundle实现代码分割和按需加载等，提高单页应用初始加载的速度
 
-demo中出现的'/static/vueTest/'为服务端该demmo的静态资源目录，
-这个根据自己的情况可以修改(ps.推荐一个node的mvc+orm的框架：thinkjs)
-    
+demo中出现的'/static/vueTest/'为服务端该demmo的静态资源目录，这个可以自行修改
+ps.推荐一个node的mvc+orm的框架：thinkjs
+
+
+##src目录结构说明
+
+``` bash
+components：公共可复用的组件
+lib：.js、.css
+router：路由map和别名map
+store：vuex
+views：业务组件
+App.vue：根组件
+main.js：打包入口文件
+
