@@ -51,9 +51,12 @@ store：vuex
 views：业务组件
 App.vue：根组件
 main.js：打包入口文件
+...
 
-![image](https://github.com/wjljan/vue-demo/img/1.png)
+##
+``` bash
+![image](https://github.com/wjljan/vue-demo/raw/master/img/1.png)
 
-![image](https://github.com/wjljan/vue-demo/img/2.png)
+![image](https://github.com/wjljan/vue-demo/raw/master/img/2.png)
 
-![image](https://github.com/wjljan/vue-demo/img/3.png)
+![image](https://github.com/wjljan/vue-demo/raw/master/img/3.png)
