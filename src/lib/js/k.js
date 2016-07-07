@@ -38,14 +38,3 @@ export const isArray = (data) => toString.apply(data) === '[object Array]';
  * @param data 要验证的数据
  */
 export const isObject = (data) => toString.call(data) === '[object Object]';
-
-/**
- * 克隆一个对象/数组
- * @param data 要克隆的原始对象
- */
-export const clone = (data) => {
-	if (this.isObject(data) || this.isArray(data)) 
-		return Object.create(data);
-	else 
-		throw "clone方法的参数仅限于数组或对象";
-}
